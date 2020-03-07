@@ -8,6 +8,3 @@ display_board(board)
 puts "Where would you like to go? 1-9"
 
 input = gets.strip
-token = "X"
-
-board[input] = player
